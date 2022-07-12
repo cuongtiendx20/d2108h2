@@ -1,0 +1,71 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+body{
+	font-family: 'Roboto Mono', monospace;
+}
+#header{
+	padding: 24px 0;
+}
+.logo a{
+	text-decoration: none;
+	color: #1f1f1f;
+	font-size: 28px;
+	font-weight: 700
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 0 16px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #1f1f1f;
+}
+.nav li a:hover{
+	opacity: .8;
+}
+.banner{
+	background: url("../img/unsplash_EZyot4kBaLg.png");
+	background-position: bottom;
+	padding: 160px 0;
+	color: white;
+}
+.banner h1{
+	letter-spacing: 2px;
+	font-size: 48px;
+	
+}
+.banner p{
+	margin: 8px 0 40px;
+}
+.btn{
+	text-decoration: none;
+	color: white;
+	background: #3C74CB;
+	padding: 8px 40px;
+}
+.btn:hover{
+	opacity: .8;
+}
+/*banner*/
+.services{
+	padding: 80px;
+}
+.services h1{
+	margin-bottom: 40px;
+}
+.feature{
+	height: 285px;
+	overflow: hidden
+}
+.content{
+	padding: 24px 0;
+}
+.content p{
+	margin: 8px 0 16px;
+}
+.social a{
+	color: #1f1f1f;
+	font-size: 20px
+}
